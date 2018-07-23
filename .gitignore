@@ -15,4 +15,11 @@ src/Makefile
 src/config.h
 src/hithere
 src/stamp-h1 
-hithere-0.1.tar.xz 
+*.xz 
+Makefile.in
+autom4te.cache/
+src/Makefile.in
+src/config.h.in
+aclocal.m4
+out/
+.version

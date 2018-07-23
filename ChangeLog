@@ -1,0 +1,20 @@
+2018-07-23  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	v0.0.5: trying this M4, Autoconf, and things, git-version-gen
+
+2018-07-23  Gunter Liszewski (s70 user)  <gunter.liszewski@gmail.com>
+
+	git-version-gen: .version, or .tarball-version
+
+2018-07-22  Gunter Liszewski (s70 user)  <gunter.liszewski@gmail.com>
+
+	autotools, ChangeLog: gitlog-to-changelog, imported from the guix source tree
+	* scripts/gitlog-to-changelog > ChangeLog
+
+2018-07-22  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	hithere: from the automake manual
+
+2018-07-21  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	Hi, there. This is an effort to work with the GNU autotools
