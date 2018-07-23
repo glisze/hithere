@@ -8,3 +8,8 @@ $(top_srcdir)/.version:
 dist-hook:					      
 	echo $(VERSION) > $(distdir)/.tarball-version 
 
+EXTRA_DIST += $(top_srcdir)/guix.scm
+guix-build-local:
+	guix build -f $(top_srcdir)/guix.scm hithere \
+	--with-source=hithere=$(top_srcdir)
+

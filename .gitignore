@@ -23,3 +23,4 @@ src/config.h.in
 aclocal.m4
 out/
 .version
+doc/mes.scm 
