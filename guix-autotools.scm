@@ -9,7 +9,12 @@
  (version "0.0.5")
  (source #f)
  (build-system gnu-build-system)
- (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
+ (native-inputs ;; these are needed in the early stages of developing this
+  `(("autoconf",autoconf)
+    ("automake",automake)
+    ("aclocal",aclocal)
+    ("m4",m4)))
+  (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
  (description
   "This is from the GNU autotools manual. This exercises these toold.
 Dealing with producing a standard distribution.

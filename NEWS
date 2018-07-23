@@ -1,3 +1,24 @@
+v0.0.6-rc0
+
+2018.07.23 16:10 Monday.
+
+This has passed the test of 'make dist' within a separate build directory.
+The aim is now, again, to exercise the release process, and then test the
+guix (build|package|environemt|) -l guix.scm --with-source=hithere=./
+installation/build procedures. RFC: does this work.
+
+First the development and release policy.
+Make on feature in its own feature branch. In this case the branch is named
+'feature/0002/guix-things'. The branch name reifies the notions of: branch
+type, locally unique serial number, descriptive identifier. RFC: is that
+reasonably pragmatic. For example 'git checkout $( git branch | grep 0002 )'
+is one example command line that benefits from the uniqueness of the branch
+name's embedded serial number. This unique feature appears to me to be
+reasonable visible and memorable within working memory's life cycle.
+
+Of course, 'hithere' does nothing but say its greeting. The essence is the
+administrative-, development-, and operating system surrounding of it.
+
 v0.0.5
 
 This is the brand new thing, for today. It now uses git-version-gen.
