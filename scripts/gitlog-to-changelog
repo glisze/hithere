@@ -3,7 +3,7 @@ eval '(exit $?0)' && eval 'exec perl -wS "$0" ${1+"$@"}'
     if 0;
 # Convert git log output to ChangeLog format.
 
-my $VERSION = '2018-07-22 17:07'; # UTC
+my $VERSION = '2018-07-22 19:02'; # UTC
 # The definition above must lie within the first 8 lines in order
 # for the Emacs time-stamp write hook (at end) to update it.
 # If you change this file with Emacs, please let the write hook
@@ -413,7 +413,7 @@ sub git_dir_option($)
   close PIPE
     or die "$ME: error closing pipe from " . quoted_cmd (@cmd) . "\n";
   # FIXME-someday: include $PROCESS_STATUS in the diagnostic
-
+  
   # Complain about any unused entry in the --amend=F specified file.
   my $fail = 0;
   foreach my $sha (keys %$amend_code)
