@@ -1,5 +1,14 @@
 2018-07-25  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
 
+	release/v0.0-$( git describe ): this is required for the automake 'gnits' thing, that prescribes the NEWS to relate to the version number, as well as the git checkout to be tagged in a compliant way.
+	* NEWS: updated to show the release version
+
+	release/v0.0, make distcheck: guix.scm is missing
+	touch guix.scm: this file will be generated from guix.scm.in with
+	its proper sha256, and version identifiers.
+
+	Admin, ChangeLog: ./scripts/gitlog-to-changelog
+
 	Merge branch 'develop'
 
 	hithere, guix.scm.in, upload: distribution procedures
