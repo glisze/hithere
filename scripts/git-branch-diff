@@ -1,0 +1,1 @@
+for x in $(git branch| sed - -e '/^[*]/d'); do echo == branch: $x ==; git diff --stat --color $x;done

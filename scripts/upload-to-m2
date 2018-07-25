@@ -1,0 +1,5 @@
+./scripts/guix-sha256 $1
+./scripts/sha256sum-dist
+scp -P 2222 hithere-$1.tar.gz gunter@m2.bteco.ltd.uk:/var/www/html/t/4/hithere-$1.tar.gz
+scp -P 2222 guix.scm gunter@m2.bteco.ltd.uk:/var/www/html/t/4/guix.scm
+scp -P 2222 sha256sum gunter@m2.bteco.ltd.uk:/var/www/html/t/4/sha256sum
