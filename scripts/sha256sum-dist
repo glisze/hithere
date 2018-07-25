@@ -1,0 +1,2 @@
+sha256sum hithere-*.tar.gz guix.scm > sha256sum
+sha256sum -c sha256sum

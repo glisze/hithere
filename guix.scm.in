@@ -4,7 +4,11 @@
 ;; guix build -f guix.scm -K
 (package 
  (name "hithere")
+<<<<<<< HEAD:guix.scm.in
  (version "@version@")
+=======
+ (version "0.0")
+>>>>>>> hithere, guix.scm.in, upload: distribution procedures:guix.scm
  (source (origin
 	  (method url-fetch)
 	  (uri
@@ -12,7 +16,11 @@
 	    "http://www2.bteco.ltd.uk/t/4/" name "-" version ".tar.gz"))
 	   (sha256
 	    (base32
+<<<<<<< HEAD:guix.scm.in
 	     "@sha256@"))))
+=======
+	     "0ybl8nij58kk3d8jnjqfm60hnymrfmf9wsaklyz7pffpqp5gdwc7"))))
+>>>>>>> hithere, guix.scm.in, upload: distribution procedures:guix.scm
  (build-system gnu-build-system)
  (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
  (description
