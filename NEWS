@@ -29,6 +29,22 @@ follow, not develop policies.
 
 and here it comes, the old news, at last:
 
+./bootstrap; ./configure; make distcheck
+
+tar -I "gzip -9n"
+    --format=gnu
+    --sort=name
+    --mtime=@1
+    --owner=root:0
+    --group=root:0
+    --check-links
+    -cvf hithere-0.0.7.tar.gz
+    ./hithere-0.0.7/ 
+
+sed guix.scm -e '/@sha256@/s,,'"$( guix hash hithere-0.0.7.tar.gz )"',' -i
+
+guix build -f guix.scm
+
 v0.0.6-rc0
 
 2018.07.23 16:10 Monday.
