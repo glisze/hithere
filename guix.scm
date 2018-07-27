@@ -12,7 +12,7 @@
 	    "http://www2.bteco.ltd.uk/t/4/" name "-" version ".tar.gz"))
 	   (sha256
 	    (base32
-	     "1sdcx55pf554m2m60aqplgs6w1wlfn0ihdinddbhwrarhj2x7w9b"))))
+	     "0awywbv6ipj1ll5gsrq2bppg8fc32vynw57vk77mv58yycbn86n3"))))
  (build-system gnu-build-system)
  (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
  (description
