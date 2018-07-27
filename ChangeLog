@@ -1,5 +1,17 @@
 2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
 
+	release, push: making the package definition ready for,
+
+	Release, protocol: 06-sha256 and version for the package description, guix.scm
+
+	Release, proceedings: 04-NeWS, 05-re-tar
+
+	Release, process 06: NEWS
+
+	Release, process 04: or so
+
+	release: 1 Make a ChangeLog ./scripts/gitlog-to-changelog \> ChangeLog
+
 	Admin, release: sort the release procedures
 
 2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
