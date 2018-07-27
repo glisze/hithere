@@ -4,7 +4,7 @@
 ;; guix build -f guix.scm -K
 (package 
  (name "hithere")
- (version "0.0-dirty")
+ (version "0.0-rc0")
  (source (origin
 	  (method url-fetch)
 	  (uri
