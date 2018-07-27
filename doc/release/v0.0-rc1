@@ -10,3 +10,9 @@ tar xf hithere-0.0.9-rc1.tar.gz
 ./scripts/05-tar-official \*
 ./scripts/06-guix-sha256 
 ./scripts/upload-to-m2 0.0.9-rc1
+echo 0.0.9-rc1 > .version
+
+./scripts/06-guix-sha256 
+guix package -f guix.scm
+guix graph -e '(load "./guix.scm")'
+hithere
