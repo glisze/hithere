@@ -1,1 +1,1 @@
-sed NEWS.in -e '1s,@disttag@,'"$( git describe )"',' > NEWS
+sed NEWS.in -e '1s,@disttag@,'"$( cat .version )"',' > NEWS
