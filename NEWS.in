@@ -1,4 +1,22 @@
 @disttag@
+2018.07.27 4:08 Friday
+
+Now, back on the master branch. The upload, and the guix package
+magic is done. It installed. Next! Towards established procedures.
+Again. This is the step were we fake some good news. Not bad! See
+how this goes; second time round.
+
+1. ChangeLog
+2. Commit, and base tag, remove .version
+3. bootstrap
+4. NEWS
+5. ./configure
+6. make distcheck
+7. the sha256, the version, and the guix.scm package defined
+8. upload
+
+Or some such like.
+
 2018.07.27 3:11 Friday
 
 Straight into the release procedures. This is what this is about.
@@ -16,12 +34,14 @@ it even effective. Does it do? How!
 v-200
 
 The Guix package now builds and installs, given that proper
-procedures are followed. This includes making the dist or distcheck targets, updating this, here, NEWS item,
+procedures are followed. This includes making the dist or distcheck
+targets, updating this, here, NEWS item,
 setting the conforming release tag, and producing a guix.scm
 with correct version, and sha256 identifiers.
 
 The project administration follows a model that was earlier
-explored elsewhere. In summary, make the 'deveop' branch have all the features that are ready to be
+explored elsewhere. In summary, make the 'deveop' branch have
+all the features that are ready to be
 release; and have a 'release/v0.0', in this case branch to do
 the release administration: create the tag, make the distchech, assign
 the correct version and sha256, upload, and test the installation.
