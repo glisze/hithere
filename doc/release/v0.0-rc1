@@ -1,0 +1,12 @@
+./scripts/02-release-base-tag 0.0-rc1
+./scripts/bootstrap
+./configure
+git describe>.version
+./scripts/04-NEWS-disttag 
+echo $( cat .version ) > .version
+./scripts/04-NEWS-disttag 
+make distcheck
+tar xf hithere-0.0.9-rc1.tar.gz 
+./scripts/05-tar-official \*
+./scripts/06-guix-sha256 
+./scripts/upload-to-m2 0.0.9-rc1

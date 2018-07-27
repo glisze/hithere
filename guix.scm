@@ -4,7 +4,7 @@
 ;; guix build -f guix.scm -K
 (package 
  (name "hithere")
- (version "0.0-rc0")
+ (version "v0.0.9-rc1")
  (source (origin
 	  (method url-fetch)
 	  (uri
@@ -12,7 +12,7 @@
 	    "http://www2.bteco.ltd.uk/t/4/" name "-" version ".tar.gz"))
 	   (sha256
 	    (base32
-	     "0awywbv6ipj1ll5gsrq2bppg8fc32vynw57vk77mv58yycbn86n3"))))
+	     "0r206p6df2ihzhyg6ijzyj1gcw027d6d6krvhlvqhphm0kja5c2s"))))
  (build-system gnu-build-system)
  (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
  (description
