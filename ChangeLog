@@ -1,4 +1,26 @@
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	Admin, release: sort the release procedures
+
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	release/0.0.2-f59d: Developing these, here release policy
+	1. The version
+	2. The NEWS
+	3. The distribution
+	4. guix.scm with sha256 and version
+
+	hmmmm
+
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	release/v0.0-1-g566ff2e0: NEWS updated
+
+	release/v0.0-2: or so, developing release policies
+
 2018-07-25  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	release/in process: making the git tag, as required
 
 	release/v0.0-$( git describe ): this is required for the automake 'gnits' thing, that prescribes the NEWS to relate to the version number, as well as the git checkout to be tagged in a compliant way.
 	* NEWS: updated to show the release version
@@ -95,7 +117,5 @@
 	hithere: from the automake manual
 
 	hithere: from the automake manual
-
-2018-07-21  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
 
 	Hi, there. This is an effort to work with the GNU autotools
