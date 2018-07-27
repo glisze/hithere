@@ -1,7 +1,19 @@
 @disttag@
-v0.0
+2018.07.27 3:11 Friday
 
-2018-07-25 Wednesday
+Straight into the release procedures. This is what this is about.
+Please release this. Now. What is there to this! First, (01) make
+the ChangeLog file, straight from the git log. Then, (02) commit,
+and make the base tag. (03) bootstrap, (04) configure, (05) any
+NEWS? Yes, this is it, right here, withing. (06) make distcheck;
+uncommitted; there is more.
+
+(07) make the tar as found out earlier, (08) make the guix.scm
+(09) upload. Commit, merge into the master. (10) tag, (11) make
+distcheck. Hmm. Is that really the efficient way to do this. Is
+it even effective. Does it do? How!
+
+v-200
 
 The Guix package now builds and installs, given that proper
 procedures are followed. This includes making the dist or distcheck targets, updating this, here, NEWS item,

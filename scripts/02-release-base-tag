@@ -1,0 +1,1 @@
+git tag v$1 -m "Release/v$1: $*"
