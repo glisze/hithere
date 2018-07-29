@@ -1,5 +1,6 @@
 AC_INIT([hithere],
-	m4_esyscmd([scripts/git-version-gen .tarball-version]),
+	m4_esyscmd([scripts/git-version-gen VERSION \
+	--prefix release\\/v ]),
 	[no-bug-never-not-no-more@a.b.c], [hithere],
 	[https://www.nowh.er/softies/hithere/])
 AM_INIT_AUTOMAKE([-Wall -Werror gnits])
