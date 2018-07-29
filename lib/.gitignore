@@ -1,8 +1,3 @@
-/Makefile.am
-/gettext.h
-/stdarg.in.h
-/version-etc.c
-/version-etc.h
 .deps
 liba.a
-/version-etc-fsf.c
+
