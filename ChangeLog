@@ -1,4 +1,46 @@
+2018-07-29  Gunter Liszewski (s70-11)  <gunter.liszewski@gmail.com>
+
+	hithere, bootstrap: set the git tag prefix that git-version-gen wants
+
+	admin, hithere, version: imported the gnulib module version-etc
+	./gnulib-sources/gnulib-tool --lib=liba --vc-files --import version-etc
+
+	gnulib, version-etc: maintaining this, adding a gnulib module
+
 2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	Git, repo: remove generated file(s) from the repository
+	rm: src/Makefile.in
+
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	corrections: release/v0.0-rc1: making this release, (showing incorrectly, still as 0.0.9-rc1)
+	See doc/release/v0.0-rc1 for the list of steps taken.
+
+	The package installs and runs. Development, here has a focus on the
+	release process. To be continued.
+
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	release/v0.0-rc1: Following the release proceedings
+	Note: this is still under deveopment.
+
+	Issues:
+
+	1. The version number. Its inputs include: .version, configure.ac (bootstrap), git describe (maybe), ...?
+	2. The sha256: this determines this package, for now in ./guix.scm to allow 'guix build -f guix.scm'
+
+	The process is noted within ./doc/release
+
+2018-07-27  Gunter Liszewski (s70-10)  <gunter.liszewski@gmail.com>
+
+	release: v0.0-rc0: ready for uploading, and building
+
+	release, processing the sha256, and the version
+
+	release, proceedings: 03-bootstrap, 04-NEWS with this version
+
+	Release/0.0-rc0: 01, before 02-release-base-tag
 
 	release, push: making the package definition ready for,
 
