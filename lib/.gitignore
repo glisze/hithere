@@ -5,3 +5,4 @@
 /version-etc.h
 .deps
 liba.a
+/version-etc-fsf.c

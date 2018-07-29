@@ -38,12 +38,14 @@
 #  --no-libtool \
 #  --macro-prefix=gl \
 #  --vc-files \
-#  version-etc
+#  version-etc \
+#  version-etc-fsf
 
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
 gl_LOCAL_DIR([])
 gl_MODULES([
   version-etc
+  version-etc-fsf
 ])
 gl_AVOID([])
 gl_SOURCE_BASE([lib])
