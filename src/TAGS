@@ -1,0 +1,33 @@
+
+hello.c,11
+main(6,76
+
+config.h.in,897
+#undef PACKAGE4,91
+#undef PACKAGE_BUGREPORT7,186
+#undef PACKAGE_NAME10,259
+#undef PACKAGE_PACKAGER13,335
+#undef PACKAGE_PACKAGER_BUG_REPORTS16,413
+#undef PACKAGE_PACKAGER_VERSION19,494
+#undef PACKAGE_STRING22,586
+#undef PACKAGE_TARNAME25,668
+#undef PACKAGE_URL28,740
+#undef PACKAGE_VERSION31,805
+#undef VERSION34,861
+#  define _Noreturn 41,1104
+#  define _Noreturn 43,1199
+#  define _Noreturn45,1248
+#define gl_va_copy(51,1330
+# define __GNUC_STDC_INLINE__ 60,1907
+# define _GL_UNUSED 67,2171
+# define _GL_UNUSED69,2226
+#define _UNUSED_PARAMETER_ 73,2375
+# define _GL_UNUSED_LABEL 80,2695
+# define _GL_UNUSED_LABEL82,2738
+# define _GL_ATTRIBUTE_PURE 87,2885
+# define _GL_ATTRIBUTE_PURE 89,2946
+# define _GL_ATTRIBUTE_CONST 94,3108
+# define _GL_ATTRIBUTE_CONST 96,3171
+# define _GL_ATTRIBUTE_MALLOC 101,3290
+# define _GL_ATTRIBUTE_MALLOC 103,3355
+#undef va_copy108,3461
