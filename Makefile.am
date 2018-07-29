@@ -1,4 +1,4 @@
-SUBDIRS = src lib
+SUBDIRS = src
 dist_doc_DATA = README
 
 EXTRA_DIST = \
@@ -14,5 +14,6 @@ guix-build-local:
 	guix build -f $(top_srcdir)/guix.scm hithere \
 	--with-source=hithere=$(top_srcdir)
 
+SUBDIRS += lib
 ACLOCAL_AMFLAGS = -I m4
 EXTRA_DIST += m4/gnulib-cache.m4
