@@ -30,3 +30,4 @@ src/stamp-h1
 config.guess
 config.sub
 NEWS
+guix.scm
