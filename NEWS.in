@@ -1,5 +1,23 @@
-@disttag@
-2018.07.27 4:08 Friday
+## @disttag@ -*- mode: org; -*-
+#+TITLE: Hi, there. A package that says: 'Hi, there...'
+#+STARTUP: content hidestars
+Copyright © 2018 Gunter Liszewski <gunter.liszewski@gmail.com>
+
+  Copying and distribution of this file, with or without modification,
+  are permitted in any medium without royalty provided the copyright
+  notice and this notice are preserved.
+
+Please send don't look at any bugs. There are too many already.
+
+* @disttag@ @today@
+** Still playing. 
+** Forming plans of proceedings
+** Using tools with effect and efficiency
+Rather than just tapping. Think, then plan, then develop. Then
+go back. And again. Now. Check.
+
+* Old News
+** 2018.07.27 4:08 Friday
 
 Now, back on the master branch. The upload, and the guix package
 magic is done. It installed. Next! Towards established procedures.
@@ -17,7 +35,7 @@ how this goes; second time round.
 
 Or some such like.
 
-2018.07.27 3:11 Friday
+** 2018.07.27 3:11 Friday
 
 Straight into the release procedures. This is what this is about.
 Please release this. Now. What is there to this! First, (01) make
@@ -31,7 +49,7 @@ uncommitted; there is more.
 distcheck. Hmm. Is that really the efficient way to do this. Is
 it even effective. Does it do? How!
 
-v-200
+** v-200
 
 The Guix package now builds and installs, given that proper
 procedures are followed. This includes making the dist or distcheck
@@ -50,7 +68,7 @@ checked again. These checks, here, now, serve the purpose of val-
 idating these administrative processes.
 
 Hi, there!
-
+* Even older old news
 
 =================================================================
 
@@ -60,7 +78,7 @@ follow, not develop policies.
 
 =====================================================================
 
-and here it comes, the old news, at last:
+** and here it comes, the old news, at last:
 
 ./bootstrap; ./configure; make distcheck
 
@@ -78,7 +96,7 @@ sed guix.scm -e '/@sha256@/s,,'"$( guix hash hithere-0.0.7.tar.gz )"',' -i
 
 guix build -f guix.scm
 
-v0.0.6-rc0
+** v0.0.6-rc0
 
 2018.07.23 16:10 Monday.
 
@@ -99,7 +117,7 @@ reasonable visible and memorable within working memory's life cycle.
 Of course, 'hithere' does nothing but say its greeting. The essence is the
 administrative-, development-, and operating system surrounding of it.
 
-v0.0.5
+** v0.0.5
 
 This is the brand new thing, for today. It now uses git-version-gen.
 Is this any good?
