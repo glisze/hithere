@@ -3,9 +3,6 @@
 @include version.texi
 @settitle Hithere @value{VERSION}
 
-@set VERSION 0.0.19-7568
-@set UPDATED 20180730
-
 @copying
 Hi, there. This is it. A program.
 
