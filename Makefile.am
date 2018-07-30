@@ -1,4 +1,4 @@
-SUBDIRS = lib src
+SUBDIRS = lib src doc
 dist_doc_DATA = README
 
 EXTRA_DIST = \
