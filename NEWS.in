@@ -16,8 +16,21 @@ Please send don't look at any bugs. There are too many already.
 Rather than just tapping. Think, then plan, then develop. Then
 go back. And again. Now. Check.
 
-* Old News
-** 2018.07.27 4:08 Friday
+
+@disttag@
+2018.07.29 18:55 Sunday
+
+The rain washed the old away. Now this exands on the development, and
+its release proceedings. Using source from the GNU gnulib. This is a
+step by step process, here; just to see how this goes. The gnulib
+modules 'version-etc' was imported. A tag has been made. The configure.ac
+has been (partially) adjusted. And with this incomplete development,
+just to see how this behaves, we have bootstraped and configured and
+made the 'hithere' program, and it runs; still without the required
+and standard functionality of being able to acknoledge its own ver-
+sion when asked for it.
+
+2018.07.27 4:08 Friday
 
 Now, back on the master branch. The upload, and the guix package
 magic is done. It installed. Next! Towards established procedures.

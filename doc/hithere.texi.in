@@ -1,7 +1,8 @@
 \input texinfo
-@setfilename hithere.info
-@include version.texi
-@settitle Hithere @value{VERSION}
+@settitle Hithere 0.0.
+
+@set VERSION @VERSION@
+@set UPDATED @UPDATED@
 
 @copying
 Hi, there. This is it. A program.
