@@ -32,3 +32,5 @@ src/stamp-h1
 .version
 *.xz 
 ChangeLog
+doc/hithere.texi
+doc/hithere.info
