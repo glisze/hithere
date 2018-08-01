@@ -1,1 +1,3 @@
+./scripts/gitlog-to-changelog > ChangeLog
+sed NEWS.in -e s,@disttag@,$( ./scripts/git-version-gen --prefix release\\/v VERSION ), > NEWS
 autoreconf -vif

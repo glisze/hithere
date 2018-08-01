@@ -1,5 +1,5 @@
 AC_INIT([hithere],
-	m4_esyscmd([scripts/git-version-gen VERSION \
+	m4_esyscmd([sh scripts/git-version-gen VERSION \
 	--prefix release\\/v ]),
 	[no-bug-never-not-no-more@a.b.c], [hithere],
 	[https://www.nowh.er/softies/hithere/])
