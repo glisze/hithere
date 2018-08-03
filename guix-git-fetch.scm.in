@@ -14,10 +14,10 @@
 	  (method git-fetch)
 	  (uri (git-reference
 		(url "https://github.com/glisze/hithere.git")
-		(commit "release/v0.0")))
+		(commit "@release@")))
 	  (sha256
 	   (base32
-	    "0j9rmh0xm75f8z84pfbl64p2frfp509xhamrr3q77sbgn78ib575"))))
+	    "@sha256@"))))
  (build-system gnu-build-system)
  (arguments
   '(#:phases
