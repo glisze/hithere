@@ -3,6 +3,7 @@ aclocal.m4
 autom4te.cache
 autom4te.cache/
 *.bak
+ChangeLog
 compile
 config.guess
 config.log
@@ -10,6 +11,7 @@ config.status
 config.sub
 configure
 depcomp
+doc/hithere.info
 doc/mes.scm 
 guix.scm
 hithere-*/
@@ -28,9 +30,7 @@ src/hithere
 src/Makefile
 src/Makefile.in
 src/stamp-h1 
+TAGS
 *.tar.gz
 .version
 *.xz 
-ChangeLog
-doc/hithere.info
-TAGS
