@@ -39,7 +39,7 @@
      ("texinfo" ,texinfo)))
  (synopsis "hithere: aclocal, autoconf, autoheader, automake, autotest")
  (description
-  "This is from the GNU autotools manual. This exercises these toold.
+  "This is from the GNU autotools manual. This exercises these tools.
 Dealing with producing a standard distribution.
 This is experimental, only. The aim is to find proper procedures.")
  (home-page "https://some.where.there")
