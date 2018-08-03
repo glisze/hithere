@@ -1,1 +1,0 @@
-sed doc/hithere.texi.in -e 's,@UPDATED@,'"$( date +%Y%m%d )"',' -e 's,@VERSION@,'"$( cat .version )"',' > doc/hithere.texi 

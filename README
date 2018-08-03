@@ -1,7 +1,11 @@
-Hi there,
+#+STARTUP: contents hidestars         -*- mode: org; -*-
+* Hi there
+This here has just package descriptions.
+** For example
+One could say:
+: guix build -n -L ./packages hithere
+or even:
+: bzcat $( guix build -L ./packages/ hithere --log-file )
+** Warning
+Things here are just to explore effective processes.
 
-This exercises the method that GNU advertises to be the good new automation of
-the software program build.
-
-info automake, info autoconf, info make, info gcc
-all give lots of info. Information, that is to be noted.

@@ -1,1 +1,0 @@
-./bootstrap; ./configure ; make distclean; rm $(git ls-files -o)

@@ -1,1 +1,0 @@
-sed NEWS.in -e '1s,@disttag@,'"$( cat .version )"',' > NEWS

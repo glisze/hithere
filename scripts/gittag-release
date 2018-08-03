@@ -1,1 +1,0 @@
-git tag $( cat .version ) -m "release/$( cat .version ): $*"
