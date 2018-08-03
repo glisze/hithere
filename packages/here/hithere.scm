@@ -5,7 +5,8 @@
   #:use-module (gnu packages texinfo)
   #:use-module (guix git-download)
   #:use-module (guix build-system gnu)
-  #:use-module (guix licenses))
+  #:use-module (guix licenses)
+  #:use-module (guix packages))
 
 ;;
 ;; Commentary
@@ -21,10 +22,10 @@
 	    (method git-fetch)
 	    (uri (git-reference
 		  (url "https://github.com/glisze/hithere.git")
-		  (commit "@release@")))
+		  (commit "release/v0.0")))
 	    (sha256
 	     (base32
-	      "@sha256@"))))
+	    "0j9rmh0xm75f8z84pfbl64p2frfp509xhamrr3q77sbgn78ib575"))))
    (build-system gnu-build-system)
    (arguments
     '(#:phases
