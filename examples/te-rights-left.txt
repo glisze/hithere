@@ -1,0 +1,82 @@
+An example editing session.
+
+1. Read the 'scripts/rights-left.in' text into register '0'.
+
+[9 hx9 hk erscripts/rights-left.in y hx0 hk g9 ]9
+
+2. To be sure, to be sure: look at the content of text register '0'
+
+:g0
+
+
+3. Now put the apropriate values into their places.
+
+
+
+To be continued. For now there is a dump of the text registers:
+
+x0 has:
+
+    Copyright (C) <year>  <name of author>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+x1 has:
+
+fs<year>2018fs<name of author>Gunter Liszewski
+
+
+
+x2 has:
+
+[9 hx9 hk g0 m1 hx8 hk g9 ]9
+
+And we have used the text register 9 to keep a stack the buffer stages with 
+
+[9 hx9
+
+and here they are. On top of the stack is the most recent previous state
+of the text editing buffer:
+
+top of x9, :g9
+
+
+On second thoughts, and after doing the :x9 thing, this just repeats what you
+see above; well, partially.
+
+
+
+
+So do this
+
+]9 :g9
+
+
+4. After a few pop-offs, here is one early state of things, done with something
+like ]9 ]9 ]9 :g9
+
+An example editing session.
+
+1. Read the 'scripts/rights-left.in' text into register '0'.
+
+[9 hx9 hk erscripts/rights-left.in y hx0 hk g9 ]9
+
+2. To be sure, to be sure: look at the content of text register '0'
+
+:g0
+
+
+3. Now put the apropriate values into their places.
+

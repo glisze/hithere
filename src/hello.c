@@ -1,3 +1,7 @@
+/*
+@rights-left@
+ */
+
 #include <config.h>
 #include <stdio.h>
 #include "../lib/version-etc.h"
