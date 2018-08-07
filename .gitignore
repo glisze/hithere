@@ -34,3 +34,4 @@ TAGS
 *.tar.gz
 .version
 *.xz 
+@/

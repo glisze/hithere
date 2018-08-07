@@ -1,1 +1,12 @@
 language: c
+
+
+branches:
+    only: master
+
+install: true
+
+script: touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
+
+notifications:
+     email: gunter.liszewski@gmail.com
