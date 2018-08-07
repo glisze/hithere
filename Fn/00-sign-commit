@@ -1,0 +1,5 @@
+00-sign-commit () 
+{ 
+    ( D="sign to be committed: making sure" );
+    git commit -S -m "hithere, admin: making sure, sign off"
+}
