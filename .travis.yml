@@ -12,7 +12,8 @@ branches:
 
 install: true
 
-script: touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
+script:
+     - touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
      - src/hithere
 
 notifications:
