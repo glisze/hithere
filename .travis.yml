@@ -15,9 +15,9 @@ install: true
 script:
      - ./scripts/this-version
      - touch ChangeLog && touch NEWS
-     - ./bootstrap && ./configure && make
+     - ./bootstrap && ./configure && make -s
      - src/hithere
-     - cd src && prove
+     - cd src && prove && cd ..
 
 notifications:
      email: gunter.liszewski@gmail.com
