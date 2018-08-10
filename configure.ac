@@ -4,6 +4,7 @@ AC_INIT([hithere],
 	[no-bug-never-not-no-more@a.b.c], [hithere],
 	[https://www.nowh.er/softies/hithere/])
 AM_INIT_AUTOMAKE([-Wall -Werror gnits])
+AM_SILENT_RULES([yes])
 AC_PROG_CC
 gl_EARLY
 gl_INIT

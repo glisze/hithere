@@ -15,6 +15,7 @@ install: true
 script:
      - touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
      - src/hithere
+     - prove
 
 notifications:
      email: gunter.liszewski@gmail.com
