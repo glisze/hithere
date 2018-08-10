@@ -1,3 +1,4 @@
+@/
 *~
 aclocal.m4
 autom4te.cache
@@ -10,13 +11,18 @@ config.log
 config.status
 config.sub
 configure
+configure
 depcomp
 doc/hithere.info
+doc/mdate-sh
 doc/mes.scm 
+doc/texinfo.tex
 guix.scm
 hithere-*/
+INSTALL
 install-sh
 Makefile
+Makefile.in
 Makefile.in
 missing
 NEWS
@@ -33,9 +39,5 @@ src/stamp-h1
 TAGS
 *.tar.gz
 .version
-*.xz 
-@/
 VERSION
-configure
-Makefile.in
-INSTALL
+*.xz 
