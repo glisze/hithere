@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 ( D="A simple TAP thing")
 plan(){ ( D="The plan"; echo -n "1..${1}";shift; test "${1}" == "todo"&& echo -n " $*"; echo)}
