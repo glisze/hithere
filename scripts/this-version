@@ -1,1 +1,1 @@
-git show -q | sed - -e 1\!d -e 1s,commit\ \\\(....\\\)\.\*,$( cat VERSION.in )-\\1, > VERSION
+git show --quiet | sed - -e 1\!d -e 1s,commit\ \\\(....\\\)\.\*,$( cat VERSION.in )-\\1, > VERSION
