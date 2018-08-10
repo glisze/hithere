@@ -17,7 +17,7 @@ script:
      - touch ChangeLog && touch NEWS
      - ./bootstrap && ./configure && make
      - src/hithere
-     - prove
+     - cd src && prove
 
 notifications:
      email: gunter.liszewski@gmail.com
