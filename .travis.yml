@@ -13,7 +13,9 @@ branches:
 install: true
 
 script:
-     - touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
+     - ./scripts/this-version
+     - touch ChangeLog && touch NEWS
+     - ./bootstrap && ./configure && make
      - src/hithere
      - prove
 
