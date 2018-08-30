@@ -8,7 +8,7 @@ addons:
   apt:
     packages:
       - texinfo
-      - guile-2.2
+      - guile-2.2\*
     update: true
 
 install: true
