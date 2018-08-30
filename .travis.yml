@@ -1,15 +1,20 @@
 language: c
 
 sudo: false
+before_install:
+  - sudo add-apt-repository ppa:dank/guile-2.2
 
 addons:
   apt:
     packages:
       - texinfo
+      - guile-2.2
+    update: true
 
 install: true
 
 script:
+     - guile --version
      - ./scripts/this-version
      - touch ChangeLog && touch NEWS
      - ./bootstrap && ./configure && make -s
