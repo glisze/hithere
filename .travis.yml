@@ -1,8 +1,23 @@
 language: c
 
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - texinfo
+
+branches:
+    only: master
+
 install: true
 
-script: touch ChangeLog && touch NEWS && ./bootstrap && ./configure && make
+script:
+     - ./scripts/this-version
+     - touch ChangeLog && touch NEWS
+     - ./bootstrap && ./configure && make -s
+     - src/hithere
+     - cd src && prove && cd ..
 
 notifications:
      email: gunter.liszewski@gmail.com
