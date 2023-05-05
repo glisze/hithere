@@ -4,4 +4,10 @@ This exercises the method that GNU advertises to be the good new automation of
 the software program build.
 
 info automake, info autoconf, info make, info gcc
-all give lots of info. Information, that is to be noted.
+all give lots of info. Information, that is to be noted
+
+Today is Friday, 2023-05-05.  We are exploring ways to make this run on
+our Mac mini M2, the AArch64, or arm64 architecture of the Apple Silicon.
+
+This is still experimental. We aim to explore the feasabilities of things.
+
